@@ -2,30 +2,34 @@
 * {
     box-sizing: border-box;
     font-family:'Comic Sans MS', sans-serif;
+    font-size: 16px;
   }
   h1 {
     margin: 30px;
     text-align: center;
+    font-size: 175%;
   }
   span{
     float: right;
-    padding: 2px 40px 2px 40px;
+    padding: 1px 40px 1px 40px;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-weight: bold;
+    font-size: 125%;
   }
 
   .chicken {
     background-color: #d59998;
-    color: black;
+    
   }
-  span.beef{
+  .beef{
     background-color: #c14543;
+    color: white;
   }
   .sushi{
     background-color: #e6d198;
-    color: black;
+    
   }
 
   div.item {
